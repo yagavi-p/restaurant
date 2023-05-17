@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*reset values*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+li{
+	list-style-type: none;
+	color: rgb(170, 117, 194,);
+	font-style: fa-thin fa-font-case;
+
+}
+
+a{
+	text-decoration: none;
+	
+}
+a:hover{
+	color: rgb(60, 12, 80,);
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 90%;
+	height: 50;
+	font-weight: 500px; 
+}
+.nav-links{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 45%;
+}
+.logo img{
+	width: 200px;
+	height: 100px;
+	 
+	 }
+	 /*header part over*/
+
+.nav-container{
+
+	background-color: rgb(215, 189, 226);
+}
+
+	
+#slider{
+	overflow: hidden;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+}
+#slider figure img{
+	opacity: 0.6;
+	float: left;
+	width: 20%;
+	height: 500px;
+}
+@keyframes slider{
+     0% {
+     	left: 0;
+     }
+      20% {
+     	left: 0;
+     }
+     25%{
+     	left: -100%;
+     }		
+     45%{
+     	left: -100%;
+     }
+     50%{
+     	left: -200%;
+     }
+     70%{
+     	left: -200%;
+     }
+}
+span{
+	font-size: 50px;
+	color: rgb(79, 16, 105);
+}
+h2{
+	padding-top: 20px;
+}
+.about{
+	width: 100%;
+	padding: 78px 0px;
+	marker-left: 10px ;
+
+}
+.about img{
+	height: auto;
+	width: 400px;
+	border-radius: 40%;
+	border: 2px solid black;
+}
+.main-img{
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+	.about-text h1{
+		font-size: 60px;
+		text-transform: capitalize;
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+	.about-text p{
+		margin-left: 20px;
+	}
+button{
+	background: #D9A4F1;
+	color: blueviolet;
+	text-decoration: none;
+	border: 1px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	transition: .4s;
+	margin-left: 300px;
+	margin-top: 50px;
+	border-radius: 30%;
+}
+button:hover{
+	background: transparent;
+	border: 1px solid black;
+	cursor: pointer;
+}
+.about-text button{
+	padding: 15px;
+
+	color: rgb(170, 117, 194,);
+
+}
+span{
+	color: rgb(170, 117, 194);
+	font-size: 80px;
+}
+.para{
+	color:rgb(114, 13, 126); 
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.fotter{
+	background-color: rgb(234, 188, 240);
+	padding: 50px 0;
+}
+.frow{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
